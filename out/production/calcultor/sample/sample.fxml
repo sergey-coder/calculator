@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="550.0">
+         <children>
+            <TextArea fx:id="resultField" layoutX="19.0" layoutY="22.0" prefHeight="200.0" prefWidth="510.0" AnchorPane.leftAnchor="19.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TextArea>
+            <Button layoutX="19.0" layoutY="251.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="381.5" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="251.0" />
+            <Button layoutX="14.0" layoutY="646.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="19.0" />
+            <Button layoutX="14.0" layoutY="623.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="381.5" AnchorPane.leftAnchor="122.4" />
+            <Button fx:id="four" layoutX="22.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#clicMousefour" prefHeight="67.5" prefWidth="98.4" text="4" AnchorPane.bottomAnchor="164.0" AnchorPane.leftAnchor="19.0">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="seven" layoutX="19.0" layoutY="539.0" mnemonicParsing="false" onMouseClicked="#clicMouseseven" prefHeight="67.5" prefWidth="98.4" text="7" AnchorPane.bottomAnchor="91.5">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="one" layoutX="19.0" layoutY="384.0" mnemonicParsing="false" onMouseClicked="#clicMouseone" prefHeight="67.5" prefWidth="98.4" text="1" AnchorPane.bottomAnchor="236.5" AnchorPane.leftAnchor="19.0">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="divide" layoutX="279.0" layoutY="471.0" mnemonicParsing="false" onMouseClicked="#clicMousedivide" prefHeight="67.5" prefWidth="98.4" text="/" textFill="#b909b9" AnchorPane.bottomAnchor="164.0" AnchorPane.rightAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="multiply" layoutX="352.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#clicMousemultiply" prefHeight="67.5" prefWidth="98.4" text="*" textFill="#b909b9" AnchorPane.bottomAnchor="164.0" AnchorPane.rightAnchor="19.0">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button layoutX="223.0" layoutY="661.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="225.8" />
+            <Button layoutX="470.0" layoutY="649.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="19.0" />
+            <Button fx:id="zero" layoutX="85.0" layoutY="623.0" mnemonicParsing="false" onMouseClicked="#clicMousezero" prefHeight="67.5" prefWidth="98.4" text="0" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="six" layoutX="110.0" layoutY="471.0" mnemonicParsing="false" onMouseClicked="#clicMousesix" prefHeight="67.5" prefWidth="98.4" text="6" AnchorPane.bottomAnchor="164.0" AnchorPane.rightAnchor="225.8">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="five" layoutX="94.0" layoutY="471.0" mnemonicParsing="false" onMouseClicked="#clicMousefive" prefHeight="67.5" prefWidth="98.4" text="5" AnchorPane.bottomAnchor="164.0" AnchorPane.leftAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="two" layoutX="103.0" layoutY="426.0" mnemonicParsing="false" onMouseClicked="#clicMousetw" prefHeight="67.5" prefWidth="98.4" text="2" AnchorPane.bottomAnchor="236.5" AnchorPane.leftAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="Armagedon" layoutX="19.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#clicMouseArmagedon" prefHeight="67.5" prefWidth="98.4" text="C" AnchorPane.bottomAnchor="309.0" AnchorPane.leftAnchor="19.0">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button layoutX="383.0" layoutY="478.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="91.5" AnchorPane.rightAnchor="19.0" />
+            <Button fx:id="eight" layoutX="153.0" layoutY="505.0" mnemonicParsing="false" onMouseClicked="#clicMouseeight" prefHeight="67.5" prefWidth="98.4" text="8" AnchorPane.bottomAnchor="91.5" AnchorPane.leftAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="three" layoutX="174.0" layoutY="444.0" mnemonicParsing="false" onMouseClicked="#clicMousethree" prefHeight="67.5" prefWidth="98.4" text="3" AnchorPane.bottomAnchor="236.5" AnchorPane.rightAnchor="225.8">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="minus" layoutX="433.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#clicMouseminus" prefHeight="67.5" prefWidth="98.4" text="-" textFill="#b909b9" AnchorPane.bottomAnchor="236.5" AnchorPane.rightAnchor="19.0">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button layoutX="225.0" layoutY="350.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="309.0" AnchorPane.rightAnchor="225.8" />
+            <Button layoutX="144.0" layoutY="251.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="381.5" AnchorPane.rightAnchor="225.8" />
+            <Button fx:id="point" layoutX="217.0" layoutY="494.0" onMouseClicked="#clicMousePoint" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="." AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="225.8">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="nine" layoutX="240.0" layoutY="444.0" mnemonicParsing="false" onMouseClicked="#clicMousenine" prefHeight="67.5" prefWidth="98.4" text="9" AnchorPane.bottomAnchor="91.5" AnchorPane.rightAnchor="225.8">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="delit" layoutX="432.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#clicMousedelit" prefHeight="67.5" prefWidth="98.4" text="&lt;-" AnchorPane.bottomAnchor="309.0" AnchorPane.rightAnchor="19.0">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button layoutX="241.0" layoutY="240.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="381.5" AnchorPane.rightAnchor="19.0" />
+            <Button layoutX="322.0" layoutY="613.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="122.4" />
+            <Button fx:id="equal" layoutX="302.0" layoutY="494.0" mnemonicParsing="false" onMouseClicked="#clicMouseequal" prefHeight="67.5" prefWidth="98.4" text="=" textFill="#b909b9" AnchorPane.bottomAnchor="91.5" AnchorPane.rightAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button fx:id="plus" layoutX="302.0" layoutY="410.0" mnemonicParsing="false" onMouseClicked="#clicMouseplus" prefHeight="67.5" prefWidth="98.4" text="+" textFill="#b909b9" AnchorPane.bottomAnchor="236.5" AnchorPane.rightAnchor="122.4">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Button layoutX="144.0" layoutY="289.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="309.0" AnchorPane.leftAnchor="122.4" />
+            <Button layoutX="365.0" layoutY="282.0" mnemonicParsing="false" prefHeight="67.5" prefWidth="98.4" text="Button" AnchorPane.bottomAnchor="309.0" AnchorPane.rightAnchor="122.4" />
+            
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
