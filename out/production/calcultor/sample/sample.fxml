@@ -60,7 +60,7 @@
                <font>
                   <Font size="28.0" />
                </font></Button>
-            <Button fx:id="two" layoutX="103.0" layoutY="426.0" mnemonicParsing="false" onMouseClicked="#clicMousetw" prefHeight="67.5" prefWidth="98.4" text="2" AnchorPane.bottomAnchor="236.5" AnchorPane.leftAnchor="122.4">
+            <Button fx:id="two" layoutX="103.0" layoutY="426.0" mnemonicParsing="false" onMouseClicked="#clicMousetwo" prefHeight="67.5" prefWidth="98.4" text="2" AnchorPane.bottomAnchor="236.5" AnchorPane.leftAnchor="122.4">
                <font>
                   <Font size="28.0" />
                </font></Button>
